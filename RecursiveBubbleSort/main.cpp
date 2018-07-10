@@ -2,7 +2,7 @@
 
 // C/C++ program for recursive implementation
 // of Bubble sort
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 // A function to implement bubble sort
@@ -38,7 +38,7 @@ int main()
     int arr[] = {64, 34, 25, 12, 22, 11, 90};
     int n = sizeof(arr)/sizeof(arr[0]);
     bubbleSort(arr, n);
-    printf("Sorted array : \n");
+    cout<<"Sorted array : "<<endl;
     printArray(arr, n);
     return 0;
 }
